@@ -1,0 +1,55 @@
+/*设置通用样式*/
+body{
+    font-family: "思源黑体 CN Light", "微软雅黑", "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+    color:#333;
+    overflow-x: hidden;
+    background:#F8F8F8;
+}
+*{
+    /*box-sizing:border-box;*/
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+button, input, textarea, area {
+    border: none;
+    outline: none;
+}
+html, body, p, h1, h2, h3, h4, h5, h6, ul, li, input, textarea, button, thead, tbody, tr, td, select, option {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    vertical-align: baseline;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+i{
+    font-style:normal;
+}
+img{
+    vertical-align:middle;
+    border: none;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.lf { float:left;}
+.rt { float:right;}
+
+.bg-green {
+    background: #00937f;
+}
+.container{
+    width:1150px;
+    margin:0 auto;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link rel="shortcut icon" href="img/index/logo.ico" >
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<header id="header"></header>
+
+<div class="content-body">
+    <div class="container">
+        <div class="bread-nav ">
+            <a href="index.html">首页</a>
+            <span>&gt;</span>
+            <span id="bread-nav"></span>
+        </div>
+        <div class="img-top">
+            <!--<img src="${poster.poster}" alt="">-->
+        </div>
+        <!--商品展示区-->
+        <div class="goods-area-wrap">
+            <div class="select clear">
+                <div class="title lf">
+                    <a href="index.html">
+                        <span>&lt;</span>
+                        返回首页
+                    </a>
+                </div>
+                <div class="sort-order rt">
+                    <a href="javascript:;" class="default-sort">默认排序</a>
+                    <span>·</span>
+                    <a href="javascript:;" class="price">价格</a>
+                    <span>·</span>
+                    <a href="javascript:;" class=" shelf-time">上架时间</a>
+                    <span>·</span>
+                    <a href="javascript:;" class="sales">销量</a>
+                </div>
+            </div>
+            <div class="list-comm clear" id="listComm">
+                <!--<div class="item lf">
+                    <a href="${p.href}" title="${p.title}" target="_blank">
+                        <div class="good-img-wrap">
+                            <img src="${p.pic}">
+                        </div>
+                        <div class="good-name">
+                            <p>${data.title}</p>
+                        </div>
+                        <div class="good-price">
+                            <span>${p.price}</span>
+                        </div>
+                        <div class="bottom-tip">
+                            库存不足
+                        </div>
+                    </a>
+                </div>
+            </div>-->
+
+            </div>
+            <!--分页-->
+            <div class="page-wrap">
+                <div class="page clear">
+
+                </div>
+            </div>
+            <!--推荐商品-->
+            <div class="recommend-wrap clear">
+                <div class="left-recommend-title lf">
+                    <div class="word">
+                        <div class="title">本周热卖</div>
+                        <div class="line"></div>
+                        <div class="desc">
+                            这些好棉品<br>正在热卖中
+                        </div>
+                    </div>
+                    <div class="bg-img-wrap">
+                        <img src="img/index/left-recommend.jpg">
+                    </div>
+                </div>
+                <!--四块轮播-->
+                <div class="recommend-content-wrap rt">
+                    <div class="recommend-content">
+                        <div class="recommend-slide">
+                            <div class="slide-container">
+                                <div class="slide-wrap clear">
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot2.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot3.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot4.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot5.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot2.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot3.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot4.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="#">
+                                            <div class="pro-img">
+                                                <img src="img/index/kitty_hot5.jpg" alt="">
+                                            </div>
+                                            <div class="title">HelloKitty织语压缩面巾6个</div>
+                                            <div class="price">¥22.6</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-button-wrap clear">
+                                <div class="slide-button-left lf"><</div>
+                                <div class="slide-button-right rt">></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--recommend-wrap end-->
+</div>
+</div>
+</div>
+
+
+<footer id="footer"></footer>
+<script src="js/js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<script src="js/products.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

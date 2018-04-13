@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页</title>
+    <link rel="shortcut icon" href="img/index/logo.ico" >
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/product-details.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<header id="header"></header>
+<div class="confirm">
+    <div class="confirm-title">温馨提示</div>
+    <div class="confirm-content">
+        <div class="content">加入购物车吧！！！</div>
+        <div class="btn" id="confirm-btn">确&nbsp;定</div>
+        <div class="confirm-close">x</div>
+    </div>
+</div>
+<div class="wrap"></div>
+<div class="content-body">
+    <div class="detail-wrap container">
+        <!-- 商品基本信息（放大镜等） -->
+        <div class="goods-basic clear">
+            <div class="lf">
+                <div class="goods-magnifier">
+                    <div class="list-img-wrap lf">
+                        <ul class="list-img">
+                            <!-- <li><img src="${pic.sm}" data-md="${pic.md}" data-lg="${pic.lg}"></li> -->
+                        </ul>
+                        <div class="button-wrap">
+                        </div>
+                    </div>
+                    <div class="big-img rt">
+                        <img src="" alt="" id="mImg">
+                        <div class="mask" id="mask"></div>
+                        <div class="superMask" id="superMask"></div>
+                    </div>
+                    <div class="hover-big"></div>
+                </div>
+            </div>
+            <div class="rt">
+                <div class="goods-msg">
+                    <h2 class="title">${p.title}</h2>
+                    <p class="subtitle">${p.subtitle}</p>
+                    <div class="choose-attrs tag">
+                        <span>优惠信息：</span>
+                        <span class="promise" id="promise" >${p.promise}</span>
+                    </div>
+                    <p class="line"></p>
+                    <div  class="choose-attrs">
+                        <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：</span>
+                        <b class="price">¥${p.price}</b>
+                        <span >赠送积分：</span><b class="integral">${p.price}</b>
+                    </div>
+                    <div  class="choose-attrs">
+                        <span >请选择：</span>
+                        <span class="color">
+                            <!--<span class="spec selected">${p.spec}->
+                            <!--<i class="correct"></i>-->
+                            <!--</span>-->
+
+                        </span>
+                    </div>
+                    <div  class="choose-attrs" id="choose-attrs">
+                        <span >选择尺寸：</span>
+                        <span class="size">
+                            <!--<span class="spec selected">${p.spec}->
+                            <!--<i class="correct"></i>-->
+                            <!--</span>-->
+
+                        </span>
+                    </div>
+                    <div  class="choose-attrs">
+                        <span>购买数量：</span>
+                        <div class="account">
+                            <div class="num-reduce">-</div>
+                            <input type="text" value="1" class="num-input">
+                            <div class="num-add">+</div>
+                        </div>
+                        <span>库存<i class="inventory">${p.inventory}</i>件</span>
+                        <span>已售<i class="sales">${p.sales}</i>件</span>
+                    </div>
+                    <p class="line"></p>
+                </div>
+                <div class="choose-attrs shops">
+                    <a href="javascript:;" class="cart" id="add-cart">加入购物车</a>
+                    <a href="javascript:;" class="buy" id="buy">
+                       立即购买
+                    </a>
+                    <a href="javascript:;" class="attention ">
+                       加关注
+                    </a>
+                    <a href="javascript:;" class="server">
+                      联系客服
+                    </a>
+                    <div class="add-cart-img" id="add-cart-img">
+                        <img src="img/product/baby/1/sm1.jpg" alt="" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- goods-basic end -->
+        <!-- 商品详细信息 -->
+        <div class="goods-detail clear">
+            <div class="lf">
+                <div class="tab-nav">
+                    <ul class="tab-item clear">
+                        <li class="item active lf">商品介绍</li>
+                        <li class="item lf">商品评价</li>
+                    </ul>
+                </div>
+                <div class="detail-imgs">
+                    <!--<img src="${item}" alt="">-->
+                </div>
+            </div>
+
+            <div class="rt">
+                <div class="detail-recommend">
+                    <!-- 推荐商品列表 -->
+                    <div class="recommend-top">
+                        当前品类推荐
+                    </div>
+                    <div class="list-comm">
+                        <div class="item">
+                            <a href="#" title="婴儿针织两件装带脚连体服" target="_blank">
+                                <div class="good-img-wrap">
+                                    <img src="img/index/nm1.jpg">
+                                </div>
+                                <div class="good-name">
+                                    <p>婴儿针织两件装带脚连体服</p>
+                                </div>
+                                <div class="good-price">
+
+                                    <span>¥338.0</span>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" title="婴儿针织两件装带脚连体服" target="_blank">
+                                <div class="good-img-wrap">
+                                    <img src="img/index/nm1.jpg">
+                                </div>
+                                <div class="good-name">
+                                    <p>婴儿针织两件装带脚连体服</p>
+                                </div>
+                                <div class="good-price">
+
+                                    <span>¥338.0</span>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 推荐商品列表 -->
+                    <div class="recommend-top">
+                        热销商品推荐
+                    </div>
+                    <div class="list-comm">
+                        <div class="item">
+                            <a href="#" title="婴儿针织两件装带脚连体服" target="_blank">
+                                <div class="good-img-wrap">
+                                    <img src="img/index/nm6.jpg">
+                                </div>
+                                <div class="good-name">
+                                    <p>婴儿针织两件装带脚连体服</p>
+                                </div>
+                                <div class="good-price">
+
+                                    <span>¥338.0</span>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" title="婴儿针织两件装带脚连体服" target="_blank">
+                                <div class="good-img-wrap">
+                                    <img src="img/index/nm1.jpg">
+                                </div>
+                                <div class="good-name">
+                                    <p>婴儿针织两件装带脚连体服</p>
+                                </div>
+                                <div class="good-price">
+
+                                    <span>¥338.0</span>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer"></footer>
+<script src="js/js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<script src="js/product_details.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

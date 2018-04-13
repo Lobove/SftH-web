@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="shortcut icon" href="img/index/logo.ico" >
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<!--头部-->
+<header class="container">
+    <a href="index.html">
+        <img src="img/index/logo-2.png">
+    </a>
+</header>
+<div class="content-body">
+    <div class="form-wrap">
+        <div class="title">
+            注册织语会员
+        </div>
+        <form class="register">
+            <input type="text" name="uname" placeholder="请输入用户名" id="uname">
+            <input type="password" name="upwd" placeholder="请输入密码" id="upwd">
+            <input type="password" placeholder="请确认密码" id="rpwd">
+            <input type="email" name="email" placeholder="请输入邮箱" id="email">
+            <input type="phone" name="phone" placeholder="请输入手机号" id="phone">
+            <div>
+                <input name="yzm" id="yzm" type="text" class="form-control" placeholder="请输入右侧验证码">
+                <img id="setYzm" src="data/code_yzm.php" title="看不清点击换下一张">
+            </div>
+            <div id="rc-inner-error"></div>
+            <input id="btnReg" type="button" value="注册>">
+            <p class="line"></p>
+            <a href="login.html" class="login">&lt;已有账号登录</a>
+        </form>
+    </div>
+</div>
+<footer id="footer"></footer>
+
+<script src="js/js/jquery-3.2.1.js"></script>
+<script src="js/register.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

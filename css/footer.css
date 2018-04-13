@@ -1,0 +1,97 @@
+#footer{
+    position:relative;
+    height:625px;
+}
+.comm-footer-wrap{
+    width:1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    background:#fff;
+}
+.foot-tip{
+    width:100%;
+    background:#eee;
+}
+.foot-tip .item{
+    width:33.33%;
+    height:94px;
+    line-height:94px;
+    text-align:center;
+    background:url("../img/index/seven.png") no-repeat 20% center;
+    color:#666;
+}
+.container>.item:nth-child(2){
+    background:url("../img/index/cart.png") no-repeat 20% center;
+}
+.container>.item:nth-child(3){
+    background:url("../img/index/vip.png") no-repeat 20% center;
+}
+.comm-footer{
+    margin-top:10px;
+}
+.comm-footer .container{
+    margin-top:40px;
+}
+.comm-footer .container ul li{
+    margin-right:30px;
+    height:30px;
+    line-height:30px;
+}
+.comm-footer .container b{
+    color:#333;
+}
+.comm-footer .container a{
+    color:#999;
+}
+.comm-footer .container ul li:first-child{
+    margin-bottom:24px;
+}
+.hr{
+    width:1px;
+    height:100px;
+    background:#ccc;
+}
+.ewm1{
+    text-align:center;
+}
+.ewm img{
+    width:87px;
+    height:87px;
+}
+.ewm .tips{
+    margin-top: 24px;
+    font-size: 12px;
+    color: #000;
+}
+.ewm .tips>span{
+    margin: 0 2px;
+    color: #00937f;
+    font-weight: bold;
+}
+.customer-services{
+    font-size:16px;
+    colord:#000;
+    margin-left:50px;
+    padding-top:10px;
+}
+.customer-services .phone{
+    font-size: 20px;
+    color: #00937f;
+    padding: 18px 0;
+}
+.comm-footer-bottom{
+    width:1150px;
+    margin:50px auto;
+    text-align:center;
+    font-size: 12px;
+}
+.more-link{
+   margin:80px 0 10px 400px;
+}
+.more-link>li{
+    margin-right:28px;
+}
+.copyright{
+    color:#999;
+}

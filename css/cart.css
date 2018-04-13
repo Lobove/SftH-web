@@ -1,0 +1,241 @@
+.content-body{
+    position:relative;
+    left:0;
+}
+.content-body .content-top-wrap{
+    width:100%;
+    background:#019E97;
+}
+.content-top{
+    position:relative;
+    height:80px;
+}
+.content-body .content-top .lcl{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    right:0;
+    width:489px;
+    height:20px;
+    background:url(../img/index/11.png) no-repeat 0 56%;
+    border-radius: 5px;
+}
+.sub-goodsbody h1{
+    color: #646464;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 10px 0 10px 50px;
+}
+.nogoods{
+    display: none;
+    margin-top:100px;
+    margin-left:35%;
+}
+.nogoods-right{
+    padding: 15px 0 0 20px;
+}
+.nogoods-tit{
+    font-family:"Microsoft Yahei";
+    font-size: 24px;
+    color: #959595;
+    line-height: 50px;
+}
+.nogoods-des{
+    color: #999999;
+    font-size: 14px;
+    line-height: 25px;
+}
+.nogoods-des a{
+    color: #ea5f00;
+    font-weight: bold;
+    padding-right:10px;
+}
+.nogoods-des a:hover{
+    text-decoration:underline;
+}
+#shopping-cart{
+    margin-top:30px;
+}
+#shopping-cart>div.title>b{
+    font:18px "微软雅黑";
+    font-weight:bold;
+    color:#333;
+}
+#shopping-cart .total{
+    font-size:14px;
+    padding:0 3px;
+    font-weight:bold;
+}
+.color{
+    color: #00937f;
+}
+#shopping-cart .totalPrices{
+    padding-left:8px;
+    font-size:16px;
+    font-weight:bold;
+}
+#content-box>div.imfor-top{
+    height:36px;
+    line-height:36px;
+    background:linear-gradient(to bottom,#f5f4f5,#e6e6e5);
+    box-shadow:3px 3px 6px #ccc;
+    border-top:1px solid #bbb;
+    margin:10px 0;
+    display:flex;
+    text-align:center;
+    color:#808080;
+}
+#content-box div.check-top{
+    width:100px;
+}
+#content-box div.product-top{
+    width:460px;
+}
+#content-box div.price-top{
+    width:170px;
+}
+#content-box div.num-top{
+    width:140px;
+}
+#content-box div.total-top{
+    width:150px;
+}
+#content-box div.del-top{
+    width:116px;
+}
+#content-box div.imfor{
+    height:115px;
+    margin-bottom:10px;
+    background:#fff;
+    border:1px solid #e8e8e8;
+    display:flex;
+    position:relative;
+}
+#content-box div.check{
+    width:100px;
+}
+#content-box div.check input{
+    position:absolute;
+    top:49px;
+    left:27px;
+}
+#content-box div.product{
+    width:460px;
+    margin-top:18px;
+}
+#content-box div.product img{
+    margin-top:-10px;
+}
+#content-box div.product>a{
+    float:left;
+    margin-right:5px;
+}
+#content-box div.product p.col{
+    margin-top:10px;
+}
+#content-box div.price{
+    text-align:center;
+    width:170px;
+    padding-top:40px;
+}
+#content-box div.product~div{
+    box-sizing:border-box;
+    border-left:1px solid #ddd;
+}
+
+#content-box div.num{
+    width:140px;
+}
+#content-box div.num span{
+    display:inline-block;
+    width:24px;
+    height:24px;
+    border:1px solid #bbb;
+    background:#e8e8e8;
+    text-align:center;
+    line-height:24px;
+    color:#444;
+    float:left;
+    margin-top:43px;
+    cursor: pointer;
+}
+#content-box div.num span.reduce{
+    margin-left:32px;
+}
+#content-box div.num input{
+    width:17px;
+    height:24px;
+    padding-left:11px;
+    font:12px simhei;
+    border:1px solid #bbb;
+    border-left:none;
+    border-right:none;
+    float:left;
+    margin-top:43px;
+}
+#content-box div.total-price{
+    text-align:center;
+    line-height:115px;
+    width:150px;
+}
+#content-box div.del{
+    width:116px;
+    text-align:center;
+    line-height:115px;
+}
+#box div.foot{
+    margin-top:15px;
+    height:42px;
+    line-height:42px;
+    background:linear-gradient(to bottom,#f5f4f5,#e6e6e5);
+    display:flex;
+    justify-content:space-between;
+}
+#box div.foot>div{
+    display:flex;
+}
+#box div.foot div.all{
+    width:70px;
+    margin-left:20px;
+    cursor:pointer;
+}
+#box div.foot div.foot-qk{
+    height:23px;
+    line-height:23px;
+    width:105px;
+    text-align:center;
+    background:#ccc;
+    color:#fff;
+    margin-left:15px;
+    cursor:pointer;
+    align-self:center;
+}
+#box div.foot div.foot-selected{
+    margin-right:15px;
+}
+#box div.foot span.totalOne{
+    font-size:14px;
+    font-weight:bold;
+    margin:0 5px;
+}
+#box div.foot-tol{
+    margin-right:15px;
+}
+#box div.foot-tol span+span{
+    font-size:16px;
+    font-weight:bold;
+}
+#box div.foot-cash{
+    cursor:pointer;
+    width:140px;
+    height:42px;
+    line-height:42px;
+    background:linear-gradient(to bottom,#00937f,#007878);
+    text-align:center;
+    font-size:18px;
+    color:#fff;
+    border-radius:2px;
+}
+#footer{
+    margin-top:70px;
+}
